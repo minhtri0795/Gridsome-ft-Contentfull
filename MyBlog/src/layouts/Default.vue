@@ -126,7 +126,7 @@ img{
   max-width: 100%;
 }
 .layout {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -137,6 +137,7 @@ img{
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
+  padding: 0 40px;
 }
 
 .logo{
@@ -147,8 +148,14 @@ img{
 }
 .nav__link {
   margin-left: 20px;
+  color: rgb(48, 49, 51);
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.2s ease;
 }
-
+.nav__link:hover{
+  color:rgba(48, 49, 51,0.5);
+}
 footer {
   font-family: "PT Sans", sans-serif;
 }
